@@ -1,0 +1,29 @@
+{
+  "name": "social-networkapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Weyweyx/Social-NetworkAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Weyweyx/Social-NetworkAPI/issues"
+  },
+  "homepage": "https://github.com/Weyweyx/Social-NetworkAPI#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "moment": "^2.30.1",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
